@@ -49,22 +49,29 @@ margin-right: 32px;
 
 .column.large {
    width: 630px;
-        }
+      margin-right: 32px;}
 
-.column.medium {
+  .column.medium {
     width: 300px;
+
+
 }
 .column.small {
     width: 240px;
+
 }
 .stories {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
     margin-top: 17px;
+    width: 50%
+    }
+  .stories .text-content{
+    heght: 250px;
   }
+
+
 h2{
   display: block;
 
@@ -73,9 +80,6 @@ p{
   display: block;
 }
 
-div{
-  border: 1px solid black;
-}
 div span{
   width: 596px;
   height: 18px;
@@ -97,7 +101,7 @@ div span{
   height: 300px;
   margin-top: 15px;
   text-align: center;
-  }
+    }
 
 .camera-image{
 
