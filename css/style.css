@@ -189,9 +189,17 @@ footer .title {
 footer nav {
   padding-left: 25px;
   margin: 0px;
+  width: auto;
+  height: auto;
 }
-
+footer .info{
+  display: flex;
+  align-items: center;
+}
 nav span{
   display: inline-block;
     padding: 20px 10px;
+    width: auto;
+    height: auto;
+
 }
